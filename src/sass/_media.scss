@@ -1,0 +1,162 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 950px;
+  }
+
+  .header-wrapp {
+    padding-top: 40px;
+  }
+
+  .promo {
+    min-height: 700px;
+    .title {
+      font-size: 50px;
+    }
+    .video {
+      width: 350px;
+      height: 300px;
+      bottom: 8%;
+    }
+  }
+  .nav-link {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .promo {
+    background-image: none;
+
+    .title {
+      max-width: 100%;
+    }
+
+    .subtitle {
+      max-width: 100%;
+    }
+    .slider-wrapp {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .slider-nav {
+      margin: 0 auto 30px auto;
+    }
+    .video {
+      position: relative;
+      left: auto;
+      bottom: auto;
+      transform: translate(0);
+      margin: 0 auto;
+    }
+  }
+
+  .footer {
+    &-menu {
+      ul {
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+
+    &-form {
+      .subscribe-input {
+        font-size: 15px;
+        width: 150px;
+      }
+      .subscribe-btn {
+        font-size: 12px;
+        width: 80px;
+        padding: 5px 15px;
+      }
+    }
+    &-links {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+    .overlay .video{
+        height: 300px;
+    }
+  .nav {
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+  .nav-link {
+    font-size: 32px;
+  }
+  .footer-top {
+    flex-flow: column wrap;
+    padding: 20px 0;
+    .logo {
+      margin-bottom: 20px;
+    }
+  }
+  .footer-menu {
+    flex-grow: 1;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+
+    .search-panel{
+        max-width: 100px;
+    }
+    .nav-menu .menu-btn{
+        width: 30px;
+        height: 30px;
+    }
+  .nav {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  .header-wrapp {
+    padding-top: 15px;
+  }
+
+  .promo {
+    padding-top: 30px;
+    .title {
+      font-size: 32px;
+    }
+    .subtitle {
+      font-size: 14px;
+    }
+
+    .start-btn {
+      padding: 10px 15px;
+      font-size: 12px;
+    }
+
+    .video {
+      width: 100%;
+      background-size: 100% 200px;
+      height: 200px;
+    }
+  }
+  .slider-nav {
+    width: 80%;
+  }
+  .footer-menu ul {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      margin: 5px 0;
+    }
+  }
+  .footer-links ul{
+      flex-flow: column wrap;
+      li {
+          margin: 5px 0;
+      }
+  }
+  .footer-socials ul a{
+      margin: 0 5px;
+  }
+}
